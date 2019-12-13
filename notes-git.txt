@@ -28,3 +28,9 @@ jim_release
 1. if you haven't commited yet, git stash
 2. if you have commited, roll back a commit -> (git reset --soft HEAD~1), then git stash
 3. if you have commited, re-checkout the experimental branch using the release branch -> git checkout release_branch_name, git branch -m experimental_branch experimental_branch_broken_1, git checkout -b experimental_branch
+
+You want to commit
+1. When you finish a feature
+2. When you fix a bug
+3. When you add a series of files
+4. When it is the end of the day
