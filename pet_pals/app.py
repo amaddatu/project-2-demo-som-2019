@@ -30,6 +30,11 @@ def home():
     return render_template("index.html")
 
 
+# create route that renders maps.html template
+@app.route("/maps")
+def maps():
+    return render_template("map.html")
+
 # Query the database and send the jsonified results
 @app.route("/send", methods=["GET", "POST"])
 def send():
