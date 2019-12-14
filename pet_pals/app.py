@@ -13,11 +13,18 @@ from flask import (
 app = Flask(__name__)
 
 #################################################
+# Maps Setup
+#################################################
+mapkey = os.environ.get('MAPKEY', '') or "CREATE MAPKEY ENV"
+
+#################################################
 # Database Setup
 #################################################
 
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db.sqlite"
+
+
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
 db = SQLAlchemy(app)
 
@@ -29,6 +36,18 @@ from .models import Pet
 def home():
     return render_template("index.html")
 
+
+# create route that renders maps.html template
+@app.route("/maps")
+def maps():
+    return render_template("map.html")
+
+# create route that gives us our map key
+@app.route("/mapkey")
+def mapkeyroute():
+    global mapkey
+    config = { "apikey": mapkey }
+    return jsonify(config)
 
 # Query the database and send the jsonified results
 @app.route("/send", methods=["GET", "POST"])
