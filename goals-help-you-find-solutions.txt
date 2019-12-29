@@ -1,0 +1,61 @@
+https://starresults.com/top-10-reasons-set-goals/
+https://transparency.kununu.com/compelling-qualities-of-great-leaders/
+
+Reasons why goals are important as a developer.
+1. Goals clarify your vision. 
+2. Goals keep you focused.
+3. Goals make you accountable to yourself. 
+4. Goals provide built-in benchmarks.
+5. Goals are motivators. 
+6. Goals enable you to document your progress.
+7. Goals allow you to refine your strengths and strengthen your weaknesses. 
+8. Goals compel you to achieve your potential.
+9. Goals improve your approach.
+10. Goals can make you more resilient.
+
+How I try to implement it in class. None of these things require any prior coding experience. Just some googling maybe for answers. I repeat these
+for all my students and they seem to think it is a teaching method. And it is, but it is also how many top-notch developers behave. Some goals are
+as small as finding the translation for a peice of pseudocode or as large as a task on a project plan. But they must all be measurable and well-defined
+to make them useful. I want you to take note of these.
+1. Goals clarify your vision. 
+ - I ask you why do this... why do that... why not?
+ - I ask you to look at the instructions and re-word them until you get a better idea of what it means
+2. Goals keep you focused.
+ - I ask you to copy instructions from the activity or similar activities so that you can focus on adding code for a single line of code.
+ - I ask a student to re-write a single piece of pseudocode
+3. Goals make you accountable to yourself. 
+ - I always make sure every project plan has a checklist of tasks.
+4. Goals provide built-in benchmarks.
+ - I ask groups if they have met their basic task assignments yet.
+5. Goals are motivators. 
+ - I ask students to reward themselves every time they complete a goal or task. This helps start the association of good feelings with
+   a completed task.
+6. Goals enable you to document your progress.
+ - I pseudocode in a large majority of my activities. It is usually when I actually copy instructions 
+7. Goals allow you to refine your strengths and strengthen your weaknesses. 
+ - I ask students to draw or write down what they want to do, or to try to code before I answer their question. It gives them an idea of
+   what they need to work on. Many times students answer their own question while trying to explain their question.
+8. Goals compel you to achieve your potential.
+ - Many students in my class talk about how rewarding it feels to finally get their app working.
+9. Goals improve your approach.
+ - Clear and focused tasks/goals get the project done faster.
+10. Goals can make you more resilient.
+ - When I see a task/project that is too large for the time span, I ask students to have a basic/medium/advanced version so they can pivot
+   their project into manageable chunks and at the same time always be ready for Presentation day.
+
+All the things you can do without knowing the exact code while leading yourself to a solution...
+1. Research through google or similar searches
+2. Copy similar pieces of code
+3. pseudocode
+4. Draw diagrams or logical structures of the code
+5. Draw visual output needed
+6. Write a task list and try to figure the mini tasks in between
+
+Try at least a couple of these before giving up.
+
+Dead End Scenarios
+1. You completed all of the above and no solution appears
+2. You go office space on your laptop
+3. You lost a red swingline stapler
+4. The technology does not exist yet within reason (I've created new features before and it isn't a cake walk)
+5. TA says it's impossible
