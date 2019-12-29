@@ -23,19 +23,30 @@ mapkey = os.environ.get('MAPKEY', '') or "CREATE MAPKEY ENV"
 
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db.sqlite"
+from sqlalchemy import create_engine
 
-
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
 db = SQLAlchemy(app)
 
 from .models import Pet
 
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine
+other_engine = create_engine("sqlite:///pet_pals/nyc.sqlite")
+Base = automap_base()
+Base.prepare(other_engine, reflect=True)
+session = Session(other_engine)
 
 # create route that renders index.html template
 @app.route("/")
 def home():
     return render_template("index.html")
 
+@app.route("/tester")
+def tester():
+    global Base
+    print(Base.classes.keys())
+    return jsonify(Base.classes.keys())
 
 # create route that renders maps.html template
 @app.route("/maps")

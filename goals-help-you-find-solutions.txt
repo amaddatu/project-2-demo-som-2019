@@ -13,10 +13,13 @@ Reasons why goals are important as a developer.
 9. Goals improve your approach.
 10. Goals can make you more resilient.
 
-How I try to implement it in class. None of these things require any prior coding experience. Just some googling maybe for answers. I repeat these
+How I try to implement it in class:
+None of these things require any prior coding experience. Just some googling maybe for answers. I repeat these
 for all my students and they seem to think it is a teaching method. And it is, but it is also how many top-notch developers behave. Some goals are
 as small as finding the translation for a peice of pseudocode or as large as a task on a project plan. But they must all be measurable and well-defined
-to make them useful. I want you to take note of these.
+to make them useful. I want you to take note of these. I don't expect anyone to become a great leader, but I do expect you to get better at leading
+yourself to the solution.
+
 1. Goals clarify your vision. 
  - I ask you why do this... why do that... why not?
  - I ask you to look at the instructions and re-word them until you get a better idea of what it means
